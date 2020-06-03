@@ -2,6 +2,11 @@ This folder contains scripts to execute the GDspike algorithm for spike estimati
 
 Jilt Sebastian,  Mari Ganesh Kumar M, Y. S. Sreekar, Rajeev Vijay Rikhye, Mriganka Sur and Hema A. Murthy, "GDspike: An Accurate Spike estimation Algorithm from Noisy Calcium Flourescence Signals", in ICASSP 2017, DOI: 10.1109/ICASSP.2017.7952315
 
+and : 
+https://ieeexplore.ieee.org/document/8680673
+
+J. Sebastian, M. G. Kumar, V. S. Viraraghavan, M. Sur and H. A. Murthy, "Spike Estimation From Fluorescence Signals Using High-Resolution Property of Group Delay," in IEEE Transactions on Signal Processing, vol. 67, no. 11, pp. 2923-2936, 1 June1, 2019, doi: 10.1109/TSP.2019.2908913.
+
 Usage:
 Download the folder "GDspike". You would see some binaries and some matlab scripts. "GDspike.m" is the main function which calls "WordSegmentWithSilenceRemoval" binary for computation of group delay. Usage of the GDspike function is as follows:
 
@@ -31,4 +36,6 @@ plot(spike)
 
 Comments:
 
-You could use the triangulation output as a analog spike inference signal or use discrete_spike_estimate as a discrete spike estimate. Tune parameters, especially the threshold for creating the discrete spike train. Evaluations can be done with respect to well-known measures such as correlation, auc and F-measure. If you are using GDspike for research, please cite our paper at ICASSP 2017.
+You could use the triangulation output as a analog spike inference signal or use discrete_spike_estimate as a discrete spike estimate. Tune parameters, especially the threshold for creating the discrete spike train. Evaluations can be done with respect to well-known measures such as correlation, auc and F-measure. 
+
+If you are using GDspike for research, please cite our paper at ICASSP 2017 and the IEEE transactions on signal processing, FEB 2019.
